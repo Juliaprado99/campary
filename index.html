@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leilão de Carro</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="back">
+      <header class="header">
+        <div class="menu-title">
+          <h1 class="title">
+            Compary <br />
+            Leilões
+          </h1>
+        </div>
+        <nav class="menu">
+          <div class="menu-links">
+            <ul class="list">
+              <li class="itens"><a class="link" href="#sobre">Sobre</a></li>
+              <li class="itens"><a class="link" href="#contato">Contato</a></li>
+              <li class="item-button"><a href="">Área do Cliente</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="conteudo">
+          <h2 title="title-conteudo">
+            A COMPRA DE CARROS ANTIGOS NUNCA FOI TÃO FÁCIL
+          </h2>
+          <h3 class="subtitle-conteudo">
+            A Compary Leilão é líder de venda de carros antigos no Brasil.
+          </h3>
+        </div>
+      </main>
+    </div>
+
+    <section class="sobre" id="sobre">
+      <div class="sobre-content">
+        <h2 class="subtitle-sobre">
+          <span class="detalhe"></span> Sobre a Compary Leilões
+        </h2>
+        <img src="./carro-sobre.png" alt="carro-antigo" class="img" />
+      </div>
+      <div class="sobre-text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+          facere. Magnam molestiae vel voluptas magni neque expedita obcaecati
+          quibusdam nobis soluta ex? Quisquam repellat itaque dolores eligendi
+          sunt praesentium mollitia?Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Eligendi unde reprehenderit vitae minima amet soluta
+          doloremque, corrupti aliquam omnis, repellat assumenda accusantium
+          ipsum fugiat labore sunt debitis. Iste, qui doloremque.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus ea, quidem eligendi nihil ratione consequuntur autem
+          voluptas aut? Ducimus nisi quisquam nostrum non cumque laborum
+          exercitationem itaque delectus officia illo.
+        </p>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2 class="subtitle-contato">
+        <span class="detalhe"></span> Fale conosco
+      </h2>
+
+      <div class="contato-content">
+        <div class="contato-info">
+          <h4>Nossos números:</h4>
+          <p>Tel: (24)99999-9999</p>
+          <p>Whatsapp: (24) 33333-1234</p>
+          <h4>Nosso endereço:</h4>
+          <p>Rua da Gota Azul, 13</p>
+          <p>Bairro das Borboletas Marinhas</p>
+          <p>Rancho do Quiabo/RJ</p>
+        </div>
+        <div class="form">
+          <h4>
+            Para atendimento personalizado com um de nossos especialistas,
+            preencha o formulario abaixo e entraremos em contato com você.
+          </h4>
+
+          <form>
+            <label for="nome">Nome:</label> <br />
+            <input type="text" name="nome" id="nome" />
+            <br />
+            <label for="email">Email:</label> <br />
+            <input type="email" name="email" id="email" /> <br />
+            <label for="tel">Telefone/Celular:</label><br />
+            <input type="tel" name="tel" id="tel" />
+            <br />
+            <label for="msg"
+              >Caso queira nos deixar uma mensagem: <br />
+              <textarea name="msg" id="msg" cols="40" rows="10"></textarea>
+            </label>
+            <br />
+            <button class="btn" onclick="verificar()">Enviar ></button>
+            <p id="insert"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="rodape">
+      <p>Compary Leilões, sempre trazendo o melhor pra você. &copy;</p>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>

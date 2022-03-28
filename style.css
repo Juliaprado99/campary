@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;700&family=Montserrat:wght@300;400;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: Montserrat;
+  
+  
+}
+.back{
+  background-image: url(./background.jpg);
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-title {
+  padding: 20px 20px 20px 20px;
+  color: aliceblue;
+  font-family: IBM Plex Sans Arabic;
+}
+
+
+.list {
+  display: flex;
+  margin: 20px 10px;
+}
+.itens {
+  margin: 20px 10px;
+}
+.item-button {
+  margin: 10px 30px 10px 10px;
+  background-color: aliceblue;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.item-button a {
+  color: black;
+  font-weight: 600;
+}
+.link {
+  color: aliceblue;
+  text-shadow: 1px 1px 2px black;
+
+}
+
+.conteudo {
+  text-align: center;
+  color: aliceblue;
+  margin: 40px 40px 0 40px;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 2px black;
+  font-family: Montserrat;
+  min-height: 90vh
+}
+.subtitle-conteudo {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+.sobre{
+  display: flex;
+  padding: 30px 20px 20px 30px;
+}
+.subtitle-sobre{
+  margin: 40px 10px 10px 20px;
+
+}
+.detalhe{
+  background-color: black;
+  display: inline-block;
+  height: 30px;
+  width: 5px;
+  margin-top: 2px;
+}
+.img{
+  max-height: 250px;
+  margin-top: 60px;
+}
+.sobre-text{
+  margin-top: 100px;
+  margin-left: 30px;
+  padding: 40px;
+
+}
+#contato{
+  padding: 30px 20px 20px 30px;
+
+}
+.subtitle-contato{
+  margin: 40px 10px 10px 20px;
+}
+.contato-content{
+  display: flex;
+  justify-content: space-between;
+}
+.contato-info{
+  margin: 40px 44px 20px 20px;
+}
+.contato-info{
+  width: 500px;
+}
+.contato-info h4 {
+  margin: 20px 0px;
+}
+.contato-info p{
+  margin-bottom: 5px;
+}
+.form h4 {
+  margin: 20px 0px;
+
+}
+.form input{
+  margin: 10px 0px;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 5px;
+  width: 300px;
+
+}
+.btn{
+  padding: 10px 20px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+
+}
+#insert{
+  margin-top: 20px;
+
+}
+.rodape{
+  background-color: black;
+  color:aliceblue;
+  padding: 30px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 700px) {
+  .back{
+    width: 100vw;
+    background-image: url(./back-mobile.jpg);
+  }
+  .sobre{
+    padding: 10px;
+
+  }
+  .list{
+    display: block;
+  }
+  .img{
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+
+  }
+  .header{
+    display: block;
+  }
+  .sobre{
+    display: block;
+
+  }
+  .sobre-text{
+    margin-top: 50px;
+    padding: 10px;
+    min-width: 60%;
+    text-align: justify;
+
+  }
+  .contato-content{
+    display: block;
+  }
+  .contato-info
+  {
+    margin-bottom: 40px;
+  }
+  .form{
+    display: block;
+    margin: 0 auto;
+    width: 100vh;
+  }
+  .rodape{
+    width:max-content;
+  }
+}
